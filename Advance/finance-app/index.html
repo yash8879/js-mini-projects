@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <!-- Section 1: Summary -->
+      <section class="summary">
+        <div class="card balance">
+          <h2>Total Balance</h2>
+          <p id="total-balance">₹0</p>
+        </div>
+
+        <div class="card income">
+          <h2>Income</h2>
+          <p id="total-income">₹0</p>
+        </div>
+
+        <div class="card expense">
+          <h2>Expense</h2>
+          <p id="total-expense">₹0</p>
+        </div>
+      </section>
+    </div>
+
+    <!-- Section 2: Add Transaction Form -->
+    <section class="add-transaction">
+      <h2>Add transaction</h2>
+      <form id="transaction-form">
+        <input type="text" id="title" placeholder="Title" required />
+        <input type="number" id="amount" placeholder="Amount" required />
+        <select id="type">
+          <option value="income">Income</option>
+          <option value="expense">Expense</option>
+        </select>
+        <input type="date" id="date" required />
+        <button type="submit">Add</button>
+      </form>
+    </section>
+
+    <!-- Section 3: Transaction List -->
+    <section class="transactions">
+      <h2>Transactions</h2>
+      <ul id="transaction-list">
+        <!-- Dynamic <li> items will go here -->
+      </ul>
+    </section>
+    <script type="module" src="./js/app.js"></script>
+  </body>
+</html>

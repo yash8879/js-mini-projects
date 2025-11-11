@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="tip-box">
+      <label for="bill-input">Enter a bill</label>
+      <input type="number" id="bill-input" min="0" />
+
+      <label for="tip-input">Enter tip</label>
+      <input
+        type="number"
+        id="tip-input"
+        min="0"
+        placeholder="Enter in percentage %"
+      />
+      <button id="calculate-btn">Calculate</button>
+      <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

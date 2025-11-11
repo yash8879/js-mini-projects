@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  height: 100vh;
+  background: linear-gradient(to right, #74ebd5, #acb6e5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  gap: 20px; /* Adds space between dropdown and card */
+}
+
+
+#citySelect {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  background-color: white;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  transition: 0.3s ease;
+  cursor: pointer;
+}
+
+#citySelect:hover {
+  transform: scale(1.05);
+}
+
+
+.weather-card {
+  background-color: rgba(255, 255, 255, 0.95);
+  padding: 35px 40px;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.25);
+  text-align: center;
+  max-width: 400px;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.weather-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+}
+
+.weather-card h1 {
+  font-size: 30px;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+.weather-card h2 {
+  font-size: 48px;
+  color: #1a1a1a;
+  margin: 10px 0;
+}
+
+.weather-card p {
+  font-size: 18px;
+  color: #444;
+  margin: 6px 0;
+}
+
+
+@media (max-width: 400px) {
+  .weather-card {
+    padding: 25px;
+  }
+
+  .weather-card h1 {
+    font-size: 24px;
+  }
+
+  .weather-card h2 {
+    font-size: 40px;
+  }
+
+  .weather-card p {
+    font-size: 16px;
+  }
+
+  #citySelect {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+}

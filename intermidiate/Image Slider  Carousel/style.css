@@ -1,0 +1,77 @@
+.carousel {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.slides {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.slide {
+  display: none; /* Hide all by default */
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.slide.active {
+  display: flex; /* Only this one is visible */
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.prev,
+.next {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  padding: 10px 20px;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.prev {
+  left: 10px;
+}
+
+.next {
+  right: 10px;
+}
+
+.dot-container {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+  z-index: 10;
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.dot.active-dot {
+  background-color: #fff;
+  transform: scale(1.2); /* slight zoom */
+}
+
