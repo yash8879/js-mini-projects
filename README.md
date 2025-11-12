@@ -1,8 +1,8 @@
-<h1 align="center"> JavaScript Projects Collection</h1>
+<h1 align="center">💻 JavaScript Projects Collection</h1>
 
 <p align="center">
-  A collection of <b>JavaScript projects</b> I built while learning from <b>beginner</b> to <b>intermediate</b> level.<br/>
-  Each folder represents a phase of growth as I practiced <b>logic-building</b>, <b>DOM manipulation</b>, and <b>API handling</b>.
+  A complete collection of my <b>JavaScript projects</b> built from <b>Beginner → Intermediate → Advanced</b> level.<br/>
+  Each folder represents my progressive learning journey — covering fundamentals, DOM manipulation, APIs, ES6 modules, and full app logic.
 </p>
 
 ---
@@ -16,33 +16,49 @@
 
 ---
 
-##  **Beginner Projects**
+## 🧩 **Beginner Projects**
 
 | # | Project Name | Description |
 |:-:|---------------|-------------|
-| 1 | [**Digital Clock**](./beginner/project-1-digital-clock/) | Real-time clock using `Date` and `setInterval()` |
-| 2 | [**To-Do App**](./beginner/project-2-todo-app/) | Add, delete, and persist tasks using LocalStorage |
-| 3 | [**Counter App**](./beginner/project-3-counter/) | Simple counter with increment, decrement, and reset |
-| 4 | [**Form Validation**](./beginner/project-4-form-validation/) | Input validation using JavaScript and RegExp |
+| 1 | [**Click to Countdown**](./Beginner/Click%20to%20Countdown/) | Interactive countdown timer with start/stop/reset functionality |
+| 2 | [**Digital Clock**](./Beginner/Digital%20Clock/) | Real-time clock using JavaScript `Date()` and `setInterval()` |
+| 3 | [**Weather App (with dummy data)**](./Beginner/Weather%20App%20(with%20dummy%20data)/) | Static weather UI to practice object and array access |
+| 4 | [**Calculator**](./Beginner/calculator/) | Basic calculator handling user input and operations |
+| 5 | [**Tip Calculator**](./Beginner/tip%20calculator/) | Calculates total tip and bill amount dynamically |
+| 6 | [**To-Do List**](./Beginner/to-do-list/) | Add, edit, and delete tasks using LocalStorage persistence |
 
-> 🧠 These beginner projects focus on fundamental DOM interactions, event handling, and JavaScript basics.
+> 🧠 Beginner projects focus on core JS logic, DOM events, and UI interactions.
 
 ---
 
-##  **Intermediate Projects**
+## ⚙️ **Intermediate Projects**
 
 | # | Project Name | Description |
 |:-:|---------------|-------------|
-| 1 | [**Weather App**](./intermediate/weather-app/) | Fetches live weather data using OpenWeatherMap API |
-| 2 | [**Notes App**](./intermediate/project-2-notes-app/) | CRUD operations with LocalStorage |
-| 3 | [**Expense Tracker**](./intermediate/project-3-expense-tracker/) | Uses array methods (`filter`, `reduce`) for analytics |
-| 4 | [**Quiz App**](./intermediate/project-4-quiz-app/) | Dynamic questions, score tracking, and event-driven logic |
+| 1 | [**Form Validation**](./intermidiate/Form%20Validation/) | Validates user input using RegExp and custom error messages |
+| 2 | [**Image Slider / Carousel**](./intermidiate/Image%20Slider%20Carousel/) | Auto-sliding image carousel with manual navigation |
+| 3 | [**Movie Search App (OMDb API)**](./intermidiate/Movie%20Search%20App%20(OMDb%20API)/) | Fetches movie data from OMDb API using async/await |
+| 4 | [**Notes App (CRUD)**](./intermidiate/Notes%20App(CRUD)/) | Create, update, delete notes using LocalStorage |
+| 5 | [**Quiz App**](./intermidiate/Quizz%20app/) | Dynamic quiz with score tracking and progress feedback |
+| 6 | [**Expense Tracker**](./intermidiate/expense%20tracker/) | Tracks income & expenses with `filter()` and `reduce()` for totals |
 
-> 🚀 Intermediate projects emphasize working with APIs, localStorage, and JavaScript array methods for real functionality.
+> 🚀 Intermediate projects emphasize modular logic, APIs, LocalStorage, and advanced array methods.
 
 ---
 
-##  **Tech Stack**
+## 🧱 **Advanced Project**
+
+| # | Project Name | Description |
+|:-:|---------------|-------------|
+| 1 | [**Finance App**](./Advance/finance-app/) | Full-featured personal finance manager app built using modular ES6 JS |
+|   | **Modules:** `app.js`, `finance.js`, `main.js`, `storage.js`, `transaction.js`, `ui.js` |
+|   | **Features:** Add transactions, calculate balance, store data persistently, modular architecture |
+
+> 🧮 The advanced Finance App integrates multiple JS modules, clean architecture, and real-world app logic.
+
+---
+
+## 🧠 **Tech Stack**
 
 <p align="center">
   <img src="https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
@@ -51,29 +67,29 @@
 </p>
 
 - **Core Concepts:** DOM Manipulation, Events, Loops, Conditional Logic  
-- **Advanced Topics:** Fetch API, Async/Await, Array Methods (`map`, `filter`, `reduce`)  
-- **Storage:** LocalStorage for data persistence  
+- **Advanced Topics:** Fetch API, Async/Await, Modular JS (ES6), Array Methods  
+- **Data Handling:** LocalStorage for persistent state  
 
 ---
 
-##  **Goal**
+## 🎯 **Goal**
 
-> To strengthen my understanding of core JavaScript concepts by building **real, functional mini-projects from scratch**, while improving logical thinking, clean code practices, and problem-solving skills.
+> To strengthen my JavaScript fundamentals and build scalable front-end applications from scratch — while improving code readability, problem-solving, and UI interactivity.
 
 ---
 
 ## 🌱 **Future Plans**
 
-- Add more intermediate → advanced projects  
-- Refactor older ones using ES6+ syntax  
-- Add deployment links for live previews  
+- Add advanced apps with **React.js + Firebase**
+- Improve UI/UX and animations using **CSS transitions / Tailwind**
+- Add **GitHub Pages live demo links** for each project
 
 ---
 
 <p align="center">
-  ⭐ <b>More projects will be added as I continue improving my skills!</b>  
+  ⭐ <b>More projects will be added as I continue improving my skills!</b>
 </p>
 
 <p align="center">
-  <i>— Built with  using HTML, CSS, and JavaScript</i>
+  <i>— Built with ❤️ using HTML, CSS, and JavaScript</i>
 </p>
