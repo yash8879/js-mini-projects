@@ -33,7 +33,7 @@
 
 | # | Project Name | Description |
 |:-:|---------------|-------------|
-| 1 | [**Weather App**](./intermediate/project-1-weather-app/) | Fetches live weather data using OpenWeatherMap API |
+| 1 | [**Weather App**](./intermediate/weather-app/) | Fetches live weather data using OpenWeatherMap API |
 | 2 | [**Notes App**](./intermediate/project-2-notes-app/) | CRUD operations with LocalStorage |
 | 3 | [**Expense Tracker**](./intermediate/project-3-expense-tracker/) | Uses array methods (`filter`, `reduce`) for analytics |
 | 4 | [**Quiz App**](./intermediate/project-4-quiz-app/) | Dynamic questions, score tracking, and event-driven logic |
